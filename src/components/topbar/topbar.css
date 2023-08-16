@@ -1,0 +1,94 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    background-color: #1877f2;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.topbar_left{
+    flex: 20%;
+}
+.topbar_left h1{
+    cursor: pointer;
+}
+.topbar_center{
+    flex: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:2rem;
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border-radius:20px;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    background-color: #fff;
+}
+
+.searchIcon{
+    color: black;
+    font-size: 20px;
+}
+.topbar_center input{
+    width: 100%;
+    border: none;
+}
+
+.topbar_center input:focus {
+    outline: none;
+  }
+  
+
+.topbar_center a{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.topbar_right{
+    display: flex;
+    align-items: center;
+    flex: 20%;
+    justify-content: space-between;
+}
+
+.topbar_right-icons{
+    display: flex;
+}
+.topbar_right-image{
+    width: 35px;
+    height: 35px;
+}
+.topbar_right-image img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.icon{
+    position: relative;
+    cursor: pointer;
+}
+.icon_notfi{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top:0;
+    right:14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

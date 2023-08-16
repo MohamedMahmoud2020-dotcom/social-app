@@ -1,0 +1,65 @@
+.rightBarContainer{
+    flex: 3;
+    padding: 1rem;
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+    position: sticky;
+    left: 0;
+    top: 57px;
+}
+
+.rightBar-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+}
+.rightBar-top img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.rightBar-middle img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+.rightBar-bottom{
+    margin-top: 1.5rem;
+}
+
+.rightBar-bottom p{
+    margin-bottom: 1rem;
+}
+
+.rightBar-bottom-friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.rightBar-bottom-friendImage{
+    position: relative;
+}
+.rightBar-bottom-friendImage img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.rightBar-bottom-active{
+    width: 12px;
+    height: 12px;
+    background-color: green;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 5px;
+    right: 2px;
+}

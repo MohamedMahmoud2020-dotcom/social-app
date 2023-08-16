@@ -1,0 +1,46 @@
+.postContainer{
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 1rem;
+}
+
+.postTop-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.postTop-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.postTop-left h1{
+    margin: 0 0.5rem;
+    font-size: 16px;
+}
+
+.postTop-left span{
+    font-size: 13px;
+}
+
+.postTop-left img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postCenter img{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.postBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
